@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_power.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_power.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_check.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_check.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_check.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_check.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_play.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_play.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_close.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_close.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_time.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_time.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_power.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_power.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_trmin.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_trmin.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_trmin.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_trmin.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_moreoption.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_moreoption.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_close.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_close.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_play.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_play.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_pause.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pause.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_moreoption.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_moreoption.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_histaccess.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_histaccess.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_histaccess.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_histaccess.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_check.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_check.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_moreoption.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_moreoption.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_play.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_pause.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_stop.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_search.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_power.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_power.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_play.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_play.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_play.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_play.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_pause.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_close.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_stop.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_trmin.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_trmin.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_histaccess.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_histaccess.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_histaccess.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_histaccess.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_trmin.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_trmin.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_trmin.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_trmin.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_histaccess.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_histaccess.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_pause.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_time.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_power.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_power.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_stop.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_stop.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_check.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_check.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_close.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_close.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_stop.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_moreoption.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_moreoption.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_check.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_close.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_close.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_time.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_time.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_power.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-hdpi\\ic_power.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_add.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-anydpi\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_moreoption.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_moreoption.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_seance.xml.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\layout\\item_seance.xml"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_time.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xhdpi\\ic_time.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_time.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-xxhdpi\\ic_time.png"
+    },
+    {
+        "merged": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_stop.png.flat",
+        "source": "C:\\Users\\natha\\Documents\\COURS\\COMMUN GIT\\BikeAtHome_FITNESSINTERACTIVE\\app\\src\\main\\res\\drawable-mdpi\\ic_stop.png"
+    }
+]

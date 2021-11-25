@@ -1,0 +1,6 @@
+fr/example/bikeathome/BuildConfig.java
+ fr.example.bikeathome.BuildConfig
+fragments/HomeFragment.java
+ fragments.HomeFragment
+fr/example/bikeathome/MainActivity.java
+ fr.example.bikeathome.MainActivity
