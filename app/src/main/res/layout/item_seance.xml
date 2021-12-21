@@ -53,8 +53,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:text="(97 minutes)"
+        android:text="97"
         app:layout_constraintTop_toBottomOf="@+id/viewSeparator"
         app:layout_constraintLeft_toRightOf="@+id/difficulte_seance_mainpage"/>
+
+    <TextView
+        android:id="@+id/text_minutes_mainpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text=" minutes"
+        app:layout_constraintTop_toBottomOf="@+id/viewSeparator"
+        app:layout_constraintLeft_toRightOf="@+id/temps_seance_mainpage"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

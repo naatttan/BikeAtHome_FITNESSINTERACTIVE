@@ -1,26 +1,43 @@
 package fr.example.bikeathome.adapter;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.zip.Inflater;
+import java.util.List;
 
+import fr.example.bikeathome.MainActivity;
 import fr.example.bikeathome.R;
+import fr.example.bikeathome.Session;
 
 public class ItemSeanceAdapter extends RecyclerView.Adapter<ItemSeanceAdapter.itemSeanceViewHolder>{
+
+    public MainActivity context;
+    private List<Session> sessionList;
+
+    public ItemSeanceAdapter(MainActivity context, List<Session> sessionList) {
+        this.context = context;
+        this.sessionList = sessionList;
+    }
 
 
     public class itemSeanceViewHolder extends RecyclerView.ViewHolder {
         private View itemSeance;
+        public TextView nomSeance;
+        public TextView dureeSeance;
+        public TextView difficulteSeance;
+
+
         public itemSeanceViewHolder(@NonNull View itemView) {
             super(itemView);
+            this.nomSeance = itemView.findViewById(R.id.nom_seance_mainpage);
             this.itemSeance = itemView.findViewById(R.id.item_seance);
+            this.dureeSeance = itemView.findViewById(R.id.temps_seance_mainpage);
+            this.difficulteSeance = itemView.findViewById(R.id.difficulte_seance_mainpage);
         }
     }
 
@@ -34,11 +51,17 @@ public class ItemSeanceAdapter extends RecyclerView.Adapter<ItemSeanceAdapter.it
     }
 
     @Override
-    public void onBindViewHolder(@NonNull itemSeanceViewHolder holder, int position) {    }
+    public void onBindViewHolder(@NonNull itemSeanceViewHolder holder, int position) {
+        //mettre a jour plante
+        Session currentSession = this.sessionList.get(position);
+        holder.nomSeance.setText(currentSession.getNom());
+        holder.dureeSeance.setText(String.valueOf(currentSession.getDuree() / 60));
+        holder.difficulteSeance.setText(currentSession.getDifficulte());
+    }
 
     @Override
     public int getItemCount() {
-        return 5;
+        return this.sessionList.size();
     }
 
 }

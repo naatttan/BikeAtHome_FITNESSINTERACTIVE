@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -12,22 +12,20 @@
         android:textSize="20dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/item_seance_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
         android:orientation="vertical"
-        android:layout_marginTop="35dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         />
 
 
     <ImageView
-        android:id="@+id/button_add"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="10dp"
@@ -37,4 +35,4 @@
         app:layout_constraintRight_toRightOf="@id/item_seance_recyclerview" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
