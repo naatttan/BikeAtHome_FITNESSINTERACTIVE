@@ -1,10 +1,13 @@
 package fr.example.bikeathome.fragments;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,7 +27,7 @@ import fr.example.bikeathome.adapter.ItemSeanceAdapter;
 
 public class HomeFragment extends Fragment {
     private MainActivity context;
-    private Button addButton;
+    private ImageView addButton;
 
     public HomeFragment(MainActivity context) {
         this.context = context;
@@ -78,26 +81,26 @@ public class HomeFragment extends Fragment {
         sessionList.get(2).addBloc(bloc2);
         //////////////////////////////////////////////
 
-        //utilisation bouton add
-        //addButton = homeView.findViewById(R.id.button_add);
-        //addButton.setOnClickListener(btnAddListener);
 
 
         //recuperer recycler view
         RecyclerView itemSeanceRecyclerView = homeView.findViewById(R.id.item_seance_recyclerview);
         itemSeanceRecyclerView.setAdapter(new ItemSeanceAdapter(context, sessionList));
 
+        //utilisation bouton add
+
+        addButton = (ImageView) homeView.findViewById(R.id.button_add);
+        addButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new PopupCreerSeance( (ItemSeanceAdapter) itemSeanceRecyclerView.getAdapter()).show();
+            }
+        });
 
 
 
         return homeView;
     }
 
-   /* private View.OnClickListener btnAddListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            new PopupCreerSeance().show();
-        }
-    };
-    */
+
 }

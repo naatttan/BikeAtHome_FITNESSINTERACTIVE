@@ -37,4 +37,6 @@
         app:layout_constraintRight_toRightOf="@id/item_seance_recyclerview" />
 
 
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

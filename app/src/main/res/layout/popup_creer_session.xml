@@ -1,52 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spinner_difficulte_seance"
     android:layout_width="360dp"
     android:layout_height="400dp">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
         android:text="@string/créerEntrainement_string"
         android:textSize="25dp"
-        android:paddingLeft="30dp"
         tools:ignore="MissingConstraints" />
 
     <View
-        android:id="@+id/viewSeparator"
+        android:id="@+id/viewSeparator1"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:visibility="invisible"
         android:layout_marginBottom="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
-    <TextView
+    <View
+        android:id="@+id/viewSeparator2"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
         android:text="@string/valider_button"
         android:textSize="25dp"
-        android:padding="10dp"
-        android:layout_marginRight="20dp"
-        tools:ignore="MissingConstraints"
-        app:layout_constraintBottom_toBottomOf="@+id/viewSeparator"
-        app:layout_constraintTop_toTopOf="@+id/viewSeparator"
-        app:layout_constraintRight_toRightOf="@+id/viewSeparator"
-        />
+        app:layout_constraintBottom_toBottomOf="@+id/viewSeparator1"
+        app:layout_constraintLeft_toLeftOf="@id/viewSeparator2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viewSeparator1"
+        tools:ignore="MissingConstraints" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:text="@string/annuler_button"
         android:textSize="25dp"
-        android:padding="10dp"
-        tools:ignore="MissingConstraints"
-        app:layout_constraintBottom_toBottomOf="@+id/viewSeparator"
-        app:layout_constraintTop_toTopOf="@+id/viewSeparator"
-        />
+        app:layout_constraintBottom_toBottomOf="@+id/viewSeparator1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/viewSeparator2"
+        app:layout_constraintTop_toTopOf="@+id/viewSeparator1"
+        tools:layout_editor_absoluteX="7dp" />
 
+    <EditText
+        android:id="@+id/champ_nom_seance"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSeparator2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
