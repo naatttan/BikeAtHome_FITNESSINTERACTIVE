@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spinner_difficulte_seance"
+    android:layout_width="360dp"
+    android:layout_height="400dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/créerExercice_string"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/viewSeparator1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/valider_creer_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:text="@string/valider_button"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSeparator1"
+        app:layout_constraintLeft_toLeftOf="@id/viewSeparator2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viewSeparator1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/annuler_creer_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/annuler_button"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSeparator1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/viewSeparator2"
+        app:layout_constraintTop_toTopOf="@+id/viewSeparator1"
+        tools:layout_editor_absoluteX="7dp" />
+
+    <EditText
+        android:id="@+id/saisie_duree_item"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSeparator2"
+        app:layout_constraintEnd_toEndOf="@+id/viewSeparator2"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/viewSeparator2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/saisie_duree_item"
+        app:layout_constraintEnd_toStartOf="@+id/saisie_duree_item"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/saisie_duree_item"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@drawable/ic_time" />
+
+    <EditText
+        android:id="@+id/saisie_power_item"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/saisie_trmin_item"
+        app:layout_constraintEnd_toEndOf="@+id/viewSeparator2"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/viewSeparator2"
+        app:layout_constraintTop_toBottomOf="@+id/saisie_duree_item"
+        app:layout_constraintVertical_bias="0.459" />
+
+    <TextView
+        android:id="@+id/textViewTrmin"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="tr/min"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/saisie_trmin_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toEndOf="@+id/saisie_trmin_item"
+        app:layout_constraintTop_toTopOf="@+id/saisie_trmin_item"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/textViewPower"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="W"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/saisie_power_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toEndOf="@+id/saisie_power_item"
+        app:layout_constraintTop_toTopOf="@+id/saisie_power_item"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/saisie_power_item"
+        app:layout_constraintEnd_toStartOf="@+id/saisie_power_item"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/saisie_power_item"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@drawable/ic_power" />
+
+    <TextView
+        android:id="@+id/textViewSecondes"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="S'"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/saisie_duree_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toEndOf="@+id/saisie_duree_item"
+        app:layout_constraintTop_toTopOf="@+id/saisie_duree_item"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/saisie_trmin_item"
+        app:layout_constraintEnd_toStartOf="@+id/saisie_trmin_item"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/saisie_trmin_item"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/ic_trmin" />
+
+    <View
+        android:id="@+id/viewSeparator2"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/saisie_trmin_item"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/viewSeparator2"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/viewSeparator2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.589" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

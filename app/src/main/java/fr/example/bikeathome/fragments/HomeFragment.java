@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import fr.example.bikeathome.Bloc;
+import fr.example.bikeathome.Difficulte;
 import fr.example.bikeathome.Item;
 import fr.example.bikeathome.MainActivity;
 import fr.example.bikeathome.PopupCreerSeance;
@@ -41,7 +42,7 @@ public class HomeFragment extends Fragment {
 
         //test liste de seances
         List<Session> sessionList = new ArrayList<Session>();
-        sessionList.add(new Session("seance le sang", 2) );
+        sessionList.add(new Session("seance le sang", Difficulte.FACILE) );
         Bloc bloc1 = new Bloc("Echauffement", 2);
         Bloc bloc2 = new Bloc("", 2);
         Item item1 = new Item(60, 150, 200);
@@ -51,10 +52,11 @@ public class HomeFragment extends Fragment {
         bloc2.addItem(item2);
         bloc2.addItem(item3);
         bloc2.addItem(item1);
-        sessionList.get(0).addBloc(bloc1);
-        sessionList.get(0).addBloc(bloc2);
+        sessionList.get(0).addItem(item3);
+        sessionList.get(0).addItem(item2);
+        sessionList.get(0).addItem(item3);
 
-        sessionList.add(new Session("seance ert", 0) );
+        sessionList.add(new Session("seance ert", Difficulte.DIFFICILE) );
         bloc1 = new Bloc("Echauffement", 2);
         bloc2 = new Bloc("", 2);
         item1 = new Item(450, 150, 200);
@@ -64,10 +66,11 @@ public class HomeFragment extends Fragment {
         bloc2.addItem(item2);
         bloc2.addItem(item3);
         bloc2.addItem(item1);
-        sessionList.get(1).addBloc(bloc1);
-        sessionList.get(1).addBloc(bloc2);
+        sessionList.get(1).addItem(item1);
+        sessionList.get(1).addItem(item2);
+        sessionList.get(1).addItem(item2);
 
-        sessionList.add(new Session("seancqdsfdg", 1) );
+        sessionList.add(new Session("seancqdsfdg", Difficulte.MOYEN) );
         bloc1 = new Bloc("Echauffement", 2);
         bloc2 = new Bloc("", 2);
         item1 = new Item(60, 150, 200);
@@ -77,8 +80,9 @@ public class HomeFragment extends Fragment {
         bloc2.addItem(item2);
         bloc2.addItem(item3);
         bloc2.addItem(item1);
-        sessionList.get(2).addBloc(bloc1);
-        sessionList.get(2).addBloc(bloc2);
+        sessionList.get(2).addItem(item1);
+        sessionList.get(2).addItem(item2);
+        sessionList.get(2).addItem(item3);
         //////////////////////////////////////////////
 
 
@@ -93,7 +97,7 @@ public class HomeFragment extends Fragment {
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new PopupCreerSeance( (ItemSeanceAdapter) itemSeanceRecyclerView.getAdapter()).show();
+                new PopupCreerSeance( (ItemSeanceAdapter) itemSeanceRecyclerView.getAdapter(), context, sessionList).show();
             }
         });
 

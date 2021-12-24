@@ -4,12 +4,14 @@
     <string name="dupliquer_button">Dupliquer</string>
     <string name="supprimer_button">Supprimer</string>
     <string name="créerEntrainement_string">Créer un entraînement</string>
+    <string name="créerExercice_string">Créer un exercice</string>
     <string name="valider_button">VALIDER</string>
     <string name="annuler_button">ANNULER</string>
     <string name="difficulte_string">Difficulté</string>
     <string name="historique_title">Historique</string>
     <string name="edition_title">Edition entraînement</string>
     <string name="recent_string">Recent</string>
+    <string name="validation_text_supprimer">Voulez vous vraiment supprimer cet element ?</string>
 
     <string-array name="difficultes">
         <item>Faible</item>
