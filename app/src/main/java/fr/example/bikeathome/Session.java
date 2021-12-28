@@ -21,8 +21,6 @@ public class Session {
 
 
     public void addItem(Item item) {
-        if(this.items.size() >= 0)
-            item.setPlace(this.items.size());
         this.items.add(item);
         this.duree += item.getDuree();
     }

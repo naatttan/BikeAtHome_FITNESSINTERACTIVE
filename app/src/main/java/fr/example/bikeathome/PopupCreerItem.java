@@ -53,7 +53,7 @@ public class PopupCreerItem extends Dialog {
         duree = Integer.parseInt(saisieDuree.getText().toString());
         power = Integer.parseInt(saisiePower.getText().toString());
         trmin = Integer.parseInt(saisieTrmin.getText().toString());
-        seance.getItems().add(new Item(duree, power, trmin));
+        seance.addItem(new Item(duree, power, trmin));
         this.dismiss();
     }
 

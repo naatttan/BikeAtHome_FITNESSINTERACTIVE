@@ -40,56 +40,11 @@ public class HomeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View homeView = inflater.inflate(R.layout.fragment_home, container, false);
 
-        //test liste de seances
-        List<Session> sessionList = new ArrayList<Session>();
-        sessionList.add(new Session("seance le sang", Difficulte.FACILE) );
-        Bloc bloc1 = new Bloc("Echauffement", 2);
-        Bloc bloc2 = new Bloc("", 2);
-        Item item1 = new Item(60, 150, 200);
-        Item item2 = new Item(60, 250, 600);
-        Item item3 = new Item(60, 450, 300);
-        bloc1.addItem(item1);
-        bloc2.addItem(item2);
-        bloc2.addItem(item3);
-        bloc2.addItem(item1);
-        sessionList.get(0).addItem(item3);
-        sessionList.get(0).addItem(item2);
-        sessionList.get(0).addItem(item3);
-
-        sessionList.add(new Session("seance ert", Difficulte.DIFFICILE) );
-        bloc1 = new Bloc("Echauffement", 2);
-        bloc2 = new Bloc("", 2);
-        item1 = new Item(450, 150, 200);
-        item2 = new Item(8520, 250, 600);
-        item3 = new Item(456320, 450, 300);
-        bloc1.addItem(item1);
-        bloc2.addItem(item2);
-        bloc2.addItem(item3);
-        bloc2.addItem(item1);
-        sessionList.get(1).addItem(item1);
-        sessionList.get(1).addItem(item2);
-        sessionList.get(1).addItem(item2);
-
-        sessionList.add(new Session("seancqdsfdg", Difficulte.MOYEN) );
-        bloc1 = new Bloc("Echauffement", 2);
-        bloc2 = new Bloc("", 2);
-        item1 = new Item(60, 150, 200);
-        item2 = new Item(60, 250, 600);
-        item3 = new Item(60, 450, 300);
-        bloc1.addItem(item1);
-        bloc2.addItem(item2);
-        bloc2.addItem(item3);
-        bloc2.addItem(item1);
-        sessionList.get(2).addItem(item1);
-        sessionList.get(2).addItem(item2);
-        sessionList.get(2).addItem(item3);
-        //////////////////////////////////////////////
-
 
 
         //recuperer recycler view
         RecyclerView itemSeanceRecyclerView = homeView.findViewById(R.id.item_seance_recyclerview);
-        itemSeanceRecyclerView.setAdapter(new ItemSeanceAdapter(context, sessionList));
+        itemSeanceRecyclerView.setAdapter(new ItemSeanceAdapter(context, context.sessionList));
 
         //utilisation bouton add
 
@@ -97,7 +52,7 @@ public class HomeFragment extends Fragment {
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new PopupCreerSeance( (ItemSeanceAdapter) itemSeanceRecyclerView.getAdapter(), context, sessionList).show();
+                new PopupCreerSeance( (ItemSeanceAdapter) itemSeanceRecyclerView.getAdapter(), context, context.sessionList).show();
             }
         });
 

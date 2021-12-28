@@ -7,7 +7,7 @@ public class Item {
     private int frequence;
 
     public Item(int duree, int puissance, int frequence){
-        this.duree = duree;
+        this.duree = duree * 60;
         this.puissance = puissance;
         this.frequence = frequence;
     }

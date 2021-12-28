@@ -83,9 +83,9 @@ public class PopupCreerSeance extends Dialog /*implements AdapterView.OnItemSele
         }
         String nom = this.editNomSeance.getText().toString();
         Session session = new Session(nom, difficulte);
-        this.sessions.add(session);
+        //this.sessions.add(session);
         this.dismiss();
-        context.loadFragment(new SeanceCreationFragment(this.context, session));
+        context.loadFragment(new SeanceCreationFragment(this.context,this.sessions ,session));
     }
 
 }

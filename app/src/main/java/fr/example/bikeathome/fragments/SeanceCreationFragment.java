@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -28,14 +29,18 @@ import fr.example.bikeathome.adapter.ItemSeanceAdapter;
 public class SeanceCreationFragment extends Fragment {
     private MainActivity context;
     private Session seance;
+    private List<Session> sessions;
 
     private ImageView addButton;
+    private ImageView validerButton;
+    private ImageView annulerButton;
     private TextView nomSeance;
     TextView difficulteSeance;
 
-    public SeanceCreationFragment(MainActivity context, Session session){
+    public SeanceCreationFragment(MainActivity context,List<Session> sessions ,Session session){
         this.context = context;
         this.seance = session;
+        this.sessions = sessions;
     }
 
 
@@ -57,6 +62,14 @@ public class SeanceCreationFragment extends Fragment {
 
 
 
+        annulerButton = (ImageView) creationView.findViewById(R.id.button_cancel);
+        annulerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getParentFragmentManager().popBackStack();
+            }
+        });
+
 
         addButton = (ImageView) creationView.findViewById(R.id.button_add);
         addButton.setOnClickListener(new View.OnClickListener() {
@@ -68,7 +81,21 @@ public class SeanceCreationFragment extends Fragment {
 
         itemCreationRecylclerView.getAdapter().notifyDataSetChanged();
 
+
+        validerButton = (ImageView) creationView.findViewById(R.id.button_check);
+        validerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                addSession();
+                getParentFragmentManager().popBackStack();
+            }
+        });
+
         return creationView;
+    }
+
+    public void addSession(){
+        this.sessions.add(this.seance);
     }
 
 }

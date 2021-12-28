@@ -135,7 +135,7 @@
         android:id="@+id/textViewSecondes"
         android:layout_width="90dp"
         android:layout_height="50dp"
-        android:text="S'"
+        android:text="m'"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="@+id/saisie_duree_item"
         app:layout_constraintEnd_toEndOf="parent"
