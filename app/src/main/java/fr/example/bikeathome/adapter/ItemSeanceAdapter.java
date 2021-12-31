@@ -16,6 +16,7 @@ import fr.example.bikeathome.MainActivity;
 import fr.example.bikeathome.PopupMoreOptionSeance;
 import fr.example.bikeathome.R;
 import fr.example.bikeathome.Session;
+import fr.example.bikeathome.fragments.EntrainementFragment;
 
 public class ItemSeanceAdapter extends RecyclerView.Adapter<ItemSeanceAdapter.itemSeanceViewHolder>{
 
@@ -35,6 +36,7 @@ public class ItemSeanceAdapter extends RecyclerView.Adapter<ItemSeanceAdapter.it
         public TextView dureeSeance;
         public TextView difficulteSeance;
         public ImageView moreOption;
+        private ImageView playbutton;
 
 
         public itemSeanceViewHolder(@NonNull View itemView) {
@@ -44,6 +46,7 @@ public class ItemSeanceAdapter extends RecyclerView.Adapter<ItemSeanceAdapter.it
             this.dureeSeance = itemView.findViewById(R.id.temps_seance_mainpage);
             this.difficulteSeance = itemView.findViewById(R.id.difficulte_seance_mainpage);
             this.moreOption = itemView.findViewById(R.id.moreoption);
+            this.playbutton = itemView.findViewById(R.id.boutonPlay);
         }
     }
 
@@ -68,6 +71,13 @@ public class ItemSeanceAdapter extends RecyclerView.Adapter<ItemSeanceAdapter.it
             @Override
             public void onClick(View v) {
                 openPopup(currentSession);
+            }
+        });
+
+        holder.playbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                context.loadFragment(new EntrainementFragment(context, currentSession));
             }
         });
 

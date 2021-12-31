@@ -12,6 +12,7 @@
     <string name="edition_title">Edition entraînement</string>
     <string name="recent_string">Recent</string>
     <string name="validation_text_supprimer">Voulez vous vraiment supprimer cet element ?</string>
+    <string name="validation_text_quitter_session">Voulez vous vraiment quitter cette session ?</string>
 
     <string-array name="difficultes">
         <item>Faible</item>
@@ -19,5 +20,5 @@
         <item>Difficile</item>
     </string-array>
 
-    
+
 </resources>

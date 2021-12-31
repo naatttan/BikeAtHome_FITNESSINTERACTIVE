@@ -1,6 +1,9 @@
 package fr.example.bikeathome;
 
-public class Item {
+import java.io.Serializable;
+
+public class Item implements Serializable {
+    private int id_item;
     private int place;
     private int duree;
     private int puissance;
@@ -50,5 +53,13 @@ public class Item {
 
     public void setPlace(int place) {
         this.place = place;
+    }
+
+    public int getId_item() {
+        return id_item;
+    }
+
+    public void setId_item(int id_item) {
+        this.id_item = id_item;
     }
 }

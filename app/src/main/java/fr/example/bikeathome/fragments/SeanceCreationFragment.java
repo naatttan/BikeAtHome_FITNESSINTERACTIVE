@@ -96,6 +96,11 @@ public class SeanceCreationFragment extends Fragment {
 
     public void addSession(){
         this.sessions.add(this.seance);
+        int id = this.context.dbM.ajouterSession(this.seance.getNom(), this.seance.getNumDifficulte());
+        this.seance.setId_session(id);
+        for(Item i : this.seance.getItems()){
+            this.context.dbM.ajouterItem(this.seance.getId_session(), i.getDuree(), i.getPuissance(), i.getFrequence(), this.seance.getItems().indexOf(i) + 1);
+        }
     }
 
 }

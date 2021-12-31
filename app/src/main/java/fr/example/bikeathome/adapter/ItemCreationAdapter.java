@@ -82,6 +82,7 @@ public class ItemCreationAdapter extends RecyclerView.Adapter<ItemCreationAdapte
     public void removeItem(Item item){
         this.session.getItems().remove(item);
         this.notifyItemRemoved(this.session.getItems().indexOf(item));
+        this.context.dbM.supprimerItem(item.getId_item());
     }
 
 

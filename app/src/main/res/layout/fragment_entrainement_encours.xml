@@ -8,49 +8,53 @@
 
     <View
         android:id="@+id/view"
-        android:layout_width="366dp"
-        android:layout_height="132dp"
-        android:layout_marginTop="130dp"
-        android:background="@color/purple_200"
+        android:layout_width="371dp"
+        android:layout_height="166dp"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/blue_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/view2"
-        android:layout_width="159dp"
-        android:layout_height="77dp"
-        android:background="@color/purple_200"
+        android:layout_width="249dp"
+        android:layout_height="49dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/blue_1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/imageView9"
         app:layout_constraintTop_toBottomOf="@+id/viewSeparator1"
-        app:layout_constraintVertical_bias="0.339" />
+        app:layout_constraintVertical_bias="0.406" />
 
     <TextView
-        android:id="@+id/timer"
-        android:layout_width="198dp"
-        android:layout_height="69dp"
+        android:id="@+id/timerText"
+        android:layout_width="200dp"
+        android:layout_height="93dp"
         android:text="200:10"
         android:textAlignment="center"
-        android:textSize="50dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="65dp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.38" />
+        app:layout_constraintVertical_bias="0.223" />
 
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="300dp"
         android:layout_height="31dp"
+        android:textAlignment="textEnd"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
         app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/timerText" />
 
     <View
         android:id="@+id/viewSeparator1"
@@ -100,6 +104,7 @@
         android:layout_height="wrap_content"
         android:textSize="30dp"
         android:text="1000"
+        android:textAlignment="textEnd"
         app:layout_constraintBottom_toBottomOf="@+id/viewSeparator1"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="@+id/viewSeparator1" />
@@ -109,7 +114,7 @@
         android:layout_width="68dp"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-
+        android:textAlignment="textEnd"
         android:text="1000"
         app:layout_constraintBottom_toBottomOf="@+id/viewSeparator1"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
@@ -119,6 +124,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
         android:text="tr/m"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="@+id/viewSeparator1"
@@ -129,6 +135,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
         android:text="w"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="@+id/viewSeparator1"
@@ -139,7 +146,11 @@
         android:id="@+id/pause_button"
         android:layout_width="380dp"
         android:layout_height="140dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/yellow_1"
         android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
@@ -152,10 +163,14 @@
         android:layout_width="180dp"
         android:layout_height="140dp"
         android:layout_marginStart="20dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/red_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewSeparator1"
         app:layout_constraintVertical_bias="0.933"
+        android:scaleType="fitCenter"
+        android:padding="20dp"
         app:srcCompat="@drawable/ic_stop" />
 
     <ImageButton
@@ -163,10 +178,41 @@
         android:layout_width="180dp"
         android:layout_height="140dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/yellow_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewSeparator1"
         app:layout_constraintVertical_bias="0.933"
+        android:scaleType="fitCenter"
+        android:padding="20dp"
         app:srcCompat="@drawable/ic_play" />
+
+    <TextView
+        android:id="@+id/text_nom_seance"
+        android:layout_width="339dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="28dp"
+        android:text="Nom de la seance"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_entrainement_suivant"
+        android:layout_width="227dp"
+        android:layout_height="33dp"
+        android:text="1000w @ 1000tr/m"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/viewSeparator1"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.517" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -53,6 +53,7 @@ public class PopupMoreOptionSeance extends Dialog {
         int a = this.sessions.indexOf(this.seance);
         this.sessions.remove(this.seance);
         adapter.notifyItemRemoved(a);
+        this.adapter.context.dbM.supprimerSession(this.seance.getId_session());
         dismiss();
     }
 
