@@ -29,6 +29,7 @@
         android:layout_margin="5dp"
         android:layout_marginStart="4dp"
         android:text="SEANCE 1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/item_container"
         app:layout_constraintLeft_toLeftOf="parent"
