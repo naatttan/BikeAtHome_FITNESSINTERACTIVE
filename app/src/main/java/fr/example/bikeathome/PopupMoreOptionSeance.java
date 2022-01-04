@@ -12,6 +12,7 @@ import java.util.List;
 
 import fr.example.bikeathome.adapter.ItemCreationAdapter;
 import fr.example.bikeathome.adapter.ItemSeanceAdapter;
+import fr.example.bikeathome.fragments.SeanceCreationFragment;
 
 public class PopupMoreOptionSeance extends Dialog {
     ItemSeanceAdapter adapter;
@@ -43,6 +44,7 @@ public class PopupMoreOptionSeance extends Dialog {
         findViewById(R.id.annuler_supprimer_session).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                adapter.context.loadFragment( new SeanceCreationFragment(adapter.context, sessions, seance));
                 dismiss();
             }
         });

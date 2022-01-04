@@ -86,7 +86,8 @@ public class SeanceCreationFragment extends Fragment {
         validerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                addSession();
+                if(!sessions.contains(seance))
+                    addSession();
                 getParentFragmentManager().popBackStack();
             }
         });
